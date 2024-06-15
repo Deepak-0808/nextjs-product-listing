@@ -1,0 +1,11 @@
+.container {
+  padding: 2rem;
+  text-align: center;
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+}

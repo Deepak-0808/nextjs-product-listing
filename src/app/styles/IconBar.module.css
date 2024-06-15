@@ -1,0 +1,37 @@
+.iconBar {
+  width: 100%;
+  max-width: 1303px;
+  height: 130px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  overflow-x: auto;
+}
+
+.icon {
+  width: 90px;
+  height: 124px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .iconBar {
+    justify-content: center;
+    gap: 1rem;
+    overflow-x: scroll; 
+  }
+  .icon {
+    width: 70px;
+    height: 100px;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .icon {
+    width: 50px;
+    height: 80px;
+  }
+}
